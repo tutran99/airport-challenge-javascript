@@ -11,7 +11,7 @@ describe('feature test', function() {
 
   it('planes are instructed to land at an airport', function() {
     plane.land(airport);
-    expect(airport.default_planes()).toContain(plane);
+    expect(airport.planes()).toContain(plane);
   });
 
 });
