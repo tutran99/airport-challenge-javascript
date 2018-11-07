@@ -1,4 +1,4 @@
-'use strict';
+'use strict';  // does not allow undeclared variables
 
 describe('feature test', function() {
   var plane;
